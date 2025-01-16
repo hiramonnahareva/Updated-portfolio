@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif;  */
+  font-family: poppins;
+}
+
+.pro {
+  background: linear-gradient(
+    120.37deg,
+    #000000 5.43%,
+    #11040d 50.09%,
+    #200f0c 74.23%,
+    #000000 85.9%
+  );
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    120.37deg,
+    rgba(246, 130, 111, 0.2) 5.43%,
+    rgba(250, 79, 202, 0.2) 85.9%
+  );
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* 
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 700px;
+  z-index: -11111;
+} */
+
+/* nav {
+  position: fixed;
+  top: 72px;
+  width: 90%;
+  margin: 0 auto;
+  z-index: 11111111;
+} */
+
+.nav {
+  /* background: rgba(237, 237, 237, 0.813); */
+  background-image: url("./Gradient.png");
+  background-repeat: no-repeat;
+}
+
+.pro-btn {
+  background: linear-gradient(
+    120.37deg,
+    rgba(246, 130, 111, 0.2) 5.43%,
+    rgba(250, 79, 202, 0.2) 85.9%
+  );
+
+  border: 0.5px solid rgba(250, 79, 202, 0.4);
+} 
+
+.btn-bg {
+  background: linear-gradient(106.25deg, #F8EEED 31.71%, #FFFFFF 49.34%, #E7E1E0 85.55%);
+
+}
+
+.pro {
+  background: linear-gradient(120.37deg, #000000 5.43%, #11040D 50.09%, #200F0C 74.23%, #000000 85.9%);
+  border: 1px solid rgba(250, 79, 202, 0.5);
+}
+
+.exp-text-gradient {
+  background: linear-gradient(
+    120.37deg,
+    rgba(246, 130, 111, 0.2) 5.43%,
+    rgba(250, 79, 202, 0.2) 85.9%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+} 
+
+.text-gradient {
+  background: linear-gradient(107.08deg, #F6826F -27.18%, #FA4FCA 82.89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+
+}
+
+.bg-gradient {
+  background: linear-gradient(120.37deg, #191719 5.43%, #11040D 50.09%, #200F0C 74.23%, #2A0520 85.9%);
+}
+.bg-dark-gradient {
+  background: linear-gradient(120.37deg, #000000 5.43%, #121212 50.09%, #111111 74.23%, #000000 85.9%);
+}
+
+.cer-border {
+  background: linear-gradient(
+    120.37deg,
+    rgba(246, 130, 111, 0.2) 5.43%,
+    rgba(250, 79, 202, 0.2) 85.9%
+  );
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+div[ref] {
+  scroll-behavior: smooth; /* Smooth scrolling for horizontal movement */
+}
