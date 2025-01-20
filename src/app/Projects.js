@@ -2,7 +2,7 @@
 
 // // export default function Projects({projects}) {
 // //   return (
-// //     <section className="lg:ms-20 ms-[20px] me-[20px] py-10 text-white">
+// //     <section className="lg:ms-20 ms-[20px] me-[20px] py-10">
 // //       <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
 // //       <div className="lg:flex gap-6 md:max-md:max-w-xs mx-auto">
 // //         {projects.map((project) => (
@@ -68,7 +68,7 @@
 //   }, []);
 
 //   return (
-//     <section className="lg:ms-20 ms-[20px] me-[20px] py-10 text-white">
+//     <section className="lg:ms-20 ms-[20px] me-[20px] py-10">
 //       <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
 //       {/* Sticky horizontal scroll container */}
 //       <div
@@ -93,7 +93,7 @@
 //                     {project.tags.map((tag, index) => (
 //                       <span
 //                         key={index}
-//                         className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white"
+//                         className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500"
 //                       >
 //                         {tag}
 //                       </span>
@@ -176,7 +176,7 @@
 //       </section>
 
 //       {/* Projects Section */}
-//       <section className="lg:px-40 ps-[20px] pe-[20px] py-10 text-white">
+//       <section className="lg:px-40 ps-[20px] pe-[20px] py-10">
 //         <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
 //         {/* Sticky horizontal scroll container */}
 //         <div
@@ -201,7 +201,7 @@
 //                       {project.tags.map((tag, index) => (
 //                         <span
 //                           key={index}
-//                           className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white"
+//                           className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500"
 //                         >
 //                           {tag}
 //                         </span>
@@ -237,7 +237,7 @@ export default function Projects({ projects, scrollContainerRef }) {
  
 
   return (
-      <section className="lg:px-40 ps-[20px] pe-[20px] py-10 text-white">
+      <section className="lg:px-40 ps-[20px] pe-[20px] py-10">
         <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
         {/* Sticky horizontal scroll container */}
         <div
@@ -252,17 +252,17 @@ export default function Projects({ projects, scrollContainerRef }) {
               >
                 <div className="relative">
                   <div className="px-6 py-5">
-                    <h2 className="text-[24px] font-[600] text-[#FAD7D2]">
+                    <h2 className="text-[24px] font-[600] dark:text-[#FAD7D2]">
                       {project.title}
                     </h2>
-                    <span className="text-[16px] py-[20px] text-slate-200 mb-1 block transition-all duration-500 ease-in-out">
+                    <span className="text-[16px] py-[20px] dark:text-[#AC8EA3] mb-1 block transition-all duration-500 ease-in-out">
                       {project.description}
                     </span>
                     <div className="flex flex-wrap gap-2 mt-2">
                       {project.tags.map((tag, index) => (
                         <span
                           key={index}
-                          className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white"
+                          className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-[#c72897]"
                         >
                           {tag}
                         </span>

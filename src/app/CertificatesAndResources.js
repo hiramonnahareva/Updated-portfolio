@@ -4,9 +4,9 @@ import certificate2 from "./Harvard.png";
 
 export default function CertificatesAndResources() {
     return (
-      <div className=" text-white py-12 px-4 md:px-12 space-y-16">
+      <div className="py-12 px-4 md:px-12 space-y-16"> 
         {/* Certificates Section */}
-        <section className="lg:flex justify-between gap-20 lg:mx-24 mx-4">
+        <section className="lg:flex lg:flex-row md:flex-col justify-between items-center gap-20 lg:mx-24 mx-4">
           <div className="mb-6 flex-1">
             <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">Certificates</span>
             <h2 className="text-2xl md:text-3xl font-bold mt-6">
@@ -25,19 +25,19 @@ export default function CertificatesAndResources() {
           </div>  
           </div>
 
-          <div className="lg:flex flex-2 gap-4 py-4">
+          <div className="flex lg:flex-row flex-col flex-2 gap-4 py-4">
             <a href="https://drive.google.com/file/d/16legtf0JV6d2wb4GH0b8YsiBCOcvJQ6O/view" target="_blank" className="flex-shrink-0 cer-border rounded-lg p-2 shadow-lg hover:scale-95 duration-700 transition-transform">
               <Image
                 src={certificate1 }
                 alt="Certificate 1"
-                className="grayscale hover:grayscale-0 duration-700 rounded-lg w-[353px] h-auto"
+                className="grayscale hover:grayscale-0 duration-700 rounded-lg lg:w-[353px] h-auto"
               />
             </a>
             <a  href="https://certificates.cs50.io/1c0331ef-9e19-4cc3-84e3-f354a6dc608f.pdf?size=letter" target="_blank" className="flex-shrink-0 cer-border rounded-lg p-2 shadow-lg hover:scale-95 duration-700 transition-transform">
               <Image
                 src={certificate2 }
                 alt="Certificate 2"
-                className="grayscale hover:grayscale-0 duration-700 rounded-lg w-[353px] h-auto"
+                className="grayscale hover:grayscale-0 duration-700 rounded-lg lg:w-[353px] h-auto"
               />
             </a>
           </div>
@@ -58,7 +58,7 @@ export default function CertificatesAndResources() {
               .map((_, index) => (
                 <div
                   key={index}
-                  className="bg-dark-gradient rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
+                  className="bg-dark-gradient border border-[#2A2A2A] rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
                 >
                   <div className="bg-[#2A2A2A] rounded-lg h-56"></div>
                   <h3 className="mt-8 text-lg font-medium">CV for Developer</h3>

@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function LanguageMarquee() {
   return (
-    <div className="lg:w-[900px] w-full text-5xl py-8  inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] ">
-    <ul className="flex items-center justify-center md:justify-start sm:[&_li]:mx-8 [&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll">
+    <div className="lg:w-[900px] w-full text-5xl py-8 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)] ">
+      <ul className="flex items-center justify-center md:justify-start sm:[&_li]:mx-8 [&_li]:mx-4 [&_img]:max-w-none animate-infinite-scroll">
       <li>
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -24,7 +24,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -44,7 +44,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"
@@ -64,7 +64,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -80,7 +80,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -100,7 +100,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"
@@ -120,7 +120,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -136,7 +136,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -156,7 +156,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"
@@ -180,7 +180,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -196,7 +196,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -216,7 +216,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"
@@ -236,7 +236,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -252,7 +252,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -272,7 +272,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"
@@ -292,7 +292,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://x.com/naymur_dev"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="120"
             height="109"
@@ -308,7 +308,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://www.youtube.com/naymurweb"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="206"
             height="143"
@@ -328,7 +328,7 @@ export default function LanguageMarquee() {
         <a
           target="_blank"
           href="https://github.com/ui-layouts/uilayouts"
-          className="border bg-primary  text-primary-foreground text-2xl  sm:grid hidden place-content-center  p-2   rounded-md">
+          className="border bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md">
           <svg
             width="202"
             height="202"

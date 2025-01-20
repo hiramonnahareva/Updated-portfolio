@@ -5,7 +5,7 @@ import profile from "./Profile2.svg";
 export default function Recomendation() {
   return (
     
-    <div class="bg-gradient text-white rounded-lg p-12 lg:w-1/2 w-[94%] mx-auto shadow-lg my-36 relative">
+    <div class="bg-gradient text-black dark:text-white rounded-lg p-12 lg:w-1/2 w-[94%] mx-auto shadow-lg mt-32 relative">
   <span class="pro-btn text-pink-500 text-[16px] py-1 px-3 rounded-full inline-block mb-4">
     Recommendation
   </span>

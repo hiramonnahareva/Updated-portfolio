@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Blogs() {
@@ -14,19 +15,19 @@ export default function Blogs() {
       {Array(2)
         .fill("")
         .map((_, index) => (
-          <div
+          <Link href={`blog/${index+1}`}
             key={index}
-            className="bg-dark-gradient rounded-lg shadow-lg p-8 hover:scale-95 duration-700 transition-transform"
+            className="bg-dark-gradient rounded-lg shadow-lg p-8 hover:scale-95 border border-gray-600 duration-700 transition-transform"
           >
             <h3 className="text-lg font-medium">How you can be a good Developer</h3>
             <p className="text-gray-400 mt-2">25 Feb 2023 - 10 Min Read </p>
-          </div>
+          </Link>
         ))}
     </div>
-        <div className="bg-dark-gradient border border-[#FA4FCAB2] rounded-lg flex jusity-center items-center shadow-lg p-8 hover:scale-95 duration-700 transition-transform"
+        <Link href="/blog" className="bg-dark-gradient border border-[#FA4FCAB2] rounded-lg flex jusity-center items-center shadow-lg p-8 hover:scale-95 duration-700 transition-transform"
           >
             <h3 className="text-lg font-medium">Learn More  → </h3>
-          </div>
+          </Link>
    </div>
   </section>
   )
