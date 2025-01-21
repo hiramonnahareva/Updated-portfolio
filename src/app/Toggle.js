@@ -1,5 +1,6 @@
 import Image from "next/image";
-import mode from './mode.svg';
+import sun from './mode.svg';
+import moon from './moon.png';
 import { useState, useEffect } from "react";
 
 
@@ -30,17 +31,17 @@ export default function ModeToggle() {
       onClick={() => setDarkMode(!darkMode)}
       
       
-      className=" bg-[#6b6b6b]  p-[10px] rounded-full" 
+      className=" bg-[#b5b5b5] dark:bg-[#6b6b6b] p-[10px] rounded-full" 
     > 
 
         {
             darkMode ?
              
-            <Image src={mode} className="w-[17px] h-[17px] " alt="mode"/>
+            <Image src={sun} className="w-[17px] h-[17px] hidden dark:block transform rotate-[90%] transition-all duration-700" alt="mode"/>
         
             : 
 
-            <Image src={mode} className="w-[17px] h-[17px] " alt="mode"/>
+            <Image src={moon} className="w-[17px] h-[17px] transform rotate-0 transition-all duration-700 dark:hidden" alt="mode"/>
         
            
         }

@@ -60,15 +60,17 @@ Have you implemented these techniques in your projects? Share your thoughts or a
 
 const BlogPage = () => {
   return (
-    <div className="container mx-auto p-40">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="container h-[100vh] flex justify-center items-center mx-auto p-40"> 
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {blogs.map((blog) => (
           <Link href={`blog/${blog.id}`} key={blog.id} className="bg-dark-gradient rounded-lg shadow-lg p-8 hover:scale-95 border border-gray-500 duration-700 transition-transform">
             <h2 className="text-[18px] font-bold mb-3">{blog.title}</h2>
             <p>{blog.content.slice(0, 100 ) + "..."}</p>
           </Link>
         ))}
-      </div>
+      </div> */}
+      <p className='text-5xl font-bold'>Comming Soon....</p>
+      
     </div>
   );
 };

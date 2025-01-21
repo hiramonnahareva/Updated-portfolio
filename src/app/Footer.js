@@ -6,7 +6,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="flex justify-center relative mx-[20px]">
-      <Image src={gradient} alt={gradient} />
+      <Image className="grayscale hover:grayscale-0" src={gradient} alt={gradient} />
       <div className="absolute w-[60%] top-[28px]">
         <div className="flex justify-center">
         <Image className="md:w-14" src={logo} alt="Logo" />

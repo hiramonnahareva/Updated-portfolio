@@ -82,7 +82,7 @@ export default function ContactInfo() {
                   id="full-name"
                   name="full-name"
                   placeholder="John I"
-                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border focus:outline-none focus:border-pink-500"
+                  className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border focus:outline-none focus:border-pink-500"
                 />
               </div>
 
@@ -99,7 +99,7 @@ export default function ContactInfo() {
                   name="email"
                   placeholder="john.doe@example.com"
                   required
-                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500"
+                  className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500"
                 />
               </div>
 
@@ -115,7 +115,7 @@ export default function ContactInfo() {
                   name="message"
                   rows="4"
                   placeholder="Your message here..."
-                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500" required
+                  className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500" required
                 ></textarea>
               </div>
 

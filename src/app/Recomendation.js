@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import profile from "./Profile2.svg";
+import profile from "./profile2.svg";
 
 export default function Recomendation() {
   return (

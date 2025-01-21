@@ -1,6 +1,7 @@
 import Image from "next/image";
 import certificate1 from "./PhHero.jpg";
 import certificate2 from "./Harvard.png";
+import cv from "./cv.svg";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function CertificatesAndResources() {
@@ -61,7 +62,7 @@ export default function CertificatesAndResources() {
                   key={index}
                   className="bg-dark-gradient border dark:border-[#2A2A2A] rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
                 >
-                  <div className="bg-[#2A2A2A] rounded-lg h-56"></div>
+                  <Image src={cv} className=" h-56 bg-white rounded-lg" />
                   <h3 className="mt-8 text-lg font-medium">CV for Developer</h3>
                   <p className="text-gray-400 mt-2">
                     This website is a full-stack project. <br /> This is created as a Responsive <br /> web application.
