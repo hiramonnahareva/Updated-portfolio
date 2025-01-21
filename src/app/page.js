@@ -2,7 +2,7 @@
 
 import React, { Suspense, useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import profile from "./Profile.svg";
+import profile from "./profile.svg";
 import company from "./image1.svg";
 import company2 from "./image2.svg";
 import darkEye from './darkEye.svg' ;
