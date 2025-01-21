@@ -1,4 +1,5 @@
 import emailjs from "@emailjs/browser";
+import { GoArrowUpRight } from "react-icons/go";
 import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -25,34 +26,37 @@ export default function ContactInfo() {
   }; 
 
   return (
-    <div className="h-screen mb-10 flex mx-6 items-center justify-center">
-      <div className="pro p-8 rounded-lg shadow-lg w-full max-w-4xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="mt-40 mb-20 flex lg:px-20 px-[20px] items-center justify-center">
+      <div className="pro p-16 rounded-lg shadow-lg w-full max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* Left Section */}
           <div>
-            <h2 className="text-3xl font-bold mb-4">Let’s Talk</h2>
-            <p className="text-gray-400 mb-6">
+          <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">
+              Contact
+            </span>
+            <h2 className="text-3xl font-bold my-8">Let’s Talk</h2>
+            <p className="text-[#5D5C5D] mb-8">
               Lorem ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
 
-            <div className="mb-4">
-              <p className="text-lg font-semibold">Email:</p>
+            <div className="mb-6 flex flex-col">
+              <p className="text-lg text-gradient">Email:</p>
+             
               <a
                 href="mailto:hiramoneva@gmail.com"
-                className="text-pink-500 hover:underline"
               >
                 hiramoneva@gmail.com
               </a>
             </div>
 
-            <div className="mb-4">
-              <p className="text-lg font-semibold">Social:</p>
-              <a href="#" className="text-pink-500 hover:underline mr-4">
-                LinkedIn
+            <div className="mb-6">
+              <p className="text-lg text-gradient ">Social:</p>
+              <a href="#" className="flex items-center mb-2 gap-1">
+                LinkedIn  <GoArrowUpRight className="text-xl ml-1" />
               </a>
-              <a href="#" className="text-pink-500 hover:underline">
-                GitHub
+              <a href="#" className="flex items-center gap-2">
+                GitHub  <GoArrowUpRight className="text-xl ml-1" />
               </a>
             </div>
           </div>
@@ -78,7 +82,7 @@ export default function ContactInfo() {
                   id="full-name"
                   name="full-name"
                   placeholder="John I"
-                  className="w-full p-3 rounded-md dark:bg-transparent border focus:outline-none focus:border-pink-500"
+                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border focus:outline-none focus:border-pink-500"
                 />
               </div>
 
@@ -95,7 +99,7 @@ export default function ContactInfo() {
                   name="email"
                   placeholder="john.doe@example.com"
                   required
-                  className="w-full p-3 rounded-md dark:bg-transparent border  focus:outline-none focus:border-pink-500"
+                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500"
                 />
               </div>
 
@@ -111,29 +115,16 @@ export default function ContactInfo() {
                   name="message"
                   rows="4"
                   placeholder="Your message here..."
-                  className="w-full p-3 rounded-md dark:bg-transparent border  focus:outline-none focus:border-pink-500" required
+                  className="w-full p-3 rounded-md dark:bg-[#170111] placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500" required
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-[#F6826F] text-white to-[#FA4FCA] font-semibold py-3 rounded-md flex items-center justify-center"
+                className="w-full bg-gradient-to-r from-[#F6826F] text-white to-[#FA4FCA]  py-3 rounded-md flex items-center justify-center"
               >
                 Send
-                <svg
-                  className="ml-2 w-5 h-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+                <GoArrowUpRight className="text-xl ml-1" />
               </button>
             </form>
           </div>

@@ -5,6 +5,8 @@ import Image from "next/image";
 import profile from "./Profile.svg";
 import company from "./image1.svg";
 import company2 from "./image2.svg";
+import darkEye from './darkEye.svg' ;
+import lightEye from './lightEye.svg' ;
 import Projects from "./Projects";
 import Header from "./Nav";
 import LanguageMarquee from "./LanguageMarquee";
@@ -125,7 +127,7 @@ export default function page() {
       title: "(MERN Stack Developer)",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
-      tags: ["React", "Next.js", "Node.js"],
+      tags: ["React", "Tailwind CSS", "Node.js"],
       liveSite: "#",
     },
   ];
@@ -263,10 +265,10 @@ export default function page() {
             </p>
             <a
               ref={scrollContainerRef}
-              href="#projects"
-              className="mt-6 inline-block dark:text-black bg-gradient-to-r text-white dark:from-[#F8EEED] dark:via-[#FFFFFF] dark:to-[#E7E1E0] from-[#F6826F]  via-[#fe69bb] to-[#FA4FCA] py-2 px-6 rounded-lg shadow hover:bg-pink-600"
+              href="/projects"
+              className="mt-6 flex gap-2 items-center dark:text-black bg-gradient-to-r text-white dark:from-[#F8EEED] dark:via-[#FFFFFF] dark:to-[#E7E1E0] from-[#F6826F]  via-[#fe69bb] to-[#FA4FCA] py-2 px-6 rounded-lg shadow hover:bg-pink-600"
             >
-              See my work
+              See my work <Image src={darkEye} alt="" className="hidden dark:block" /> <Image src={lightEye} alt="" className="dark:hidden block" />
             </a>
           </section>
           <Projects

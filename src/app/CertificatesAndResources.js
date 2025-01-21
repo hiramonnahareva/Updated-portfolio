@@ -1,6 +1,7 @@
 import Image from "next/image";
 import certificate1 from "./PhHero.jpg";
 import certificate2 from "./Harvard.png";
+import { GoArrowUpRight } from "react-icons/go";
 
 export default function CertificatesAndResources() {
     return (
@@ -52,13 +53,13 @@ export default function CertificatesAndResources() {
               Resources that help you
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:w-[80%] mx-[20px] lg:mx-auto mt-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 lg:w-[85%] mx-[20px] lg:mx-auto mt-12">
             {Array(3)
               .fill("")
               .map((_, index) => (
                 <div
                   key={index}
-                  className="bg-dark-gradient border border-[#2A2A2A] rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
+                  className="bg-dark-gradient border dark:border-[#2A2A2A] rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
                 >
                   <div className="bg-[#2A2A2A] rounded-lg h-56"></div>
                   <h3 className="mt-8 text-lg font-medium">CV for Developer</h3>
@@ -74,14 +75,14 @@ export default function CertificatesAndResources() {
                 </div>
               ))}
           </div>
-          <div className="text-center mt-8">
+          <div className="text-center w-[130px] mx-auto mt-8">
             <a
               href="#"
-              className="mt-6 inline-block btn-bg text-black py-2 px-6 rounded-lg shadow hover:bg-pink-600"
+              className="mt-6 flex items-center justify-center bg-gradient-to-r dark:from-[#F8EEED] dark:via-[#FFFFFF] dark:to-[#E7E1E0] from-[#F6826F]  via-[#fe69bb] to-[#FA4FCA] text-white dark:text-black py-2 px-6 rounded-lg shadow hover:bg-pink-600"
             >
-              See All &rarr;
+              See All  <GoArrowUpRight className="text-xl ml-1" />
             </a>
-          </div>
+          </div> 
         </section>
       </div>                                                                                                                                    
     );                                                                                                                                                    

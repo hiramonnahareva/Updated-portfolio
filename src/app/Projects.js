@@ -237,7 +237,7 @@ export default function Projects({ projects, scrollContainerRef }) {
  
 
   return (
-      <section className="lg:px-40 ps-[20px] pe-[20px] py-10">
+      <section id="Project" className="lg:px-40 ps-[20px] pe-[20px] py-10">
         <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
         {/* Sticky horizontal scroll container */}
         <div

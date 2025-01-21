@@ -5,6 +5,9 @@ import logo from './logo.svg';
 import mail from './mail.svg';
 import Image from "next/image";
 import ModeToggle from "./Toggle";
+import { IoCloseOutline } from "react-icons/io5";
+import { CiMenuFries } from "react-icons/ci";
+import Link from "next/link";
 // import img from '../assets/profile.png';
 // import svg from '../assets/Vector.svg';
 // import {FaTimes} from 'react-icons/fa';
@@ -22,9 +25,11 @@ const Header = () => {
         className="absolute top-[25px] right-[25px] sm:hidden hover:transition"
         onClick={handleClick}
       >
-        {click && <p className="md:block">Menu</p>}
+        {click && <p className="block"> <IoCloseOutline /> </p>}
       </button>
+       <Link href='/'>
       <Image className='my-[30px]' src={logo} alt="" />   
+       </Link>
       <ul className="dark:text-[#A6A9B8] text-[18px] flex flex-col gap-[36px]">
         <li>About</li>
         <li>Case Studies</li>
@@ -45,13 +50,25 @@ const Header = () => {
     <header className="fixed flex  flex-col  items-center w-full top-18 my-[20px] z-20">
     <div className="bg-cover lg:w-[70%] w-full overflow-hidden lg:px-[100px] lg:py-[20px] p-[40px]"> 
       <nav className="bg-[#4a3d44] backdrop-filter backdrop-blur-lg bg-opacity-30 flex gap-2 py-[10px] px-[20px] rounded-[12px] items-center justify-between">
+      <Link href='/'>
         <Image src={logo} alt="Logo"/>
+        </Link>
         <ul className="dark:text-[#A6A9B8] text-[15px] lg:flex hidden gap-[20px]">
+          <Link href="/">
           <li>Home</li>
+          </Link>
+          <Link href="Projects">
           <li>Projects</li>
+          </Link>
+          <Link href="/experiences">
           <li>Experiences</li>
-          <li>Resources</li> 
+          </Link>
+          <Link href="/">
+          <li>Resources</li>
+          </Link>
+          <Link href="/blog">
           <li>Blogs</li>
+          </Link>
 
         </ul> 
                 
@@ -83,7 +100,7 @@ const Header = () => {
             className="block md:block lg:hidden hover:transition-none"
             onClick={handleClick}
           >
-            {!click && <p>Menu</p>}
+            {!click && <CiMenuFries/>}
           </button>
         }
       </nav>
