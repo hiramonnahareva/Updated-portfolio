@@ -17,7 +17,7 @@ import Blogs from "./Blogs";
 import Footer from "./Footer";
 import ContactInfo from "./ContactInfo";
 
-export default function page() {
+export default function Page() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isOpen, setIsOpen] = useState(false); 
 
