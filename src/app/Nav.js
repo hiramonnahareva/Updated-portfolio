@@ -129,7 +129,7 @@ const Header = () => {
             <div className="bg-[#b5b5b5] flex items-center p-[10px] rounded-full">
               <Image
                 src={mail}
-                className="hidden dark:block w-[2rem] "
+                className="hidden dark:block w-[2rem] h-[2rem]"
                 alt="mail"
               />{" "}
               <Image
