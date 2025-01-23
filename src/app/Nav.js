@@ -121,10 +121,10 @@ const Header = () => {
           <div className="rounded-full border border-[#818181] p-1 relative md:h-[29px] flex items-center md:my-2 md:w-[176px] w-full">
             <div className="w-[10px] h-[10px] bg-green-500 rounded-full absolute md:top-[8px] left-[12px] animate-[ping_1.5s_linear_infinite]"></div>
 
-            <span className="ps-[28px]  dark:text-white md:text-[14px] text-[10px] md:pe-2 pe-0">
+            <span className="ps-[28px]  dark:text-white md:text-[14px] text-[8px] md:pe-2 pe-0">
               Available for Work
             </span>
-          </div>
+          </div>  
 
             <div className="dark:bg-[#6b6b6b]  flex items-center p-[10px] rounded-full bg-[#b5b5b5]">
               <Image

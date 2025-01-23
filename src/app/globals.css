@@ -39,8 +39,7 @@ body {
   /* color: var(--foreground);
   background: var(--background); */
   /* font-family: Arial, Helvetica, sans-serif;  */
-  /* font-family: poppins;  */
-  font-family: "Poppins", serif;
+  font-family: poppins; 
   overflow-x: hidden;
 }
 
