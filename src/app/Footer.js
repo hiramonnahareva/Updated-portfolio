@@ -1,4 +1,5 @@
-import gradient from "./Gradient.svg";
+import gradient from "./Gradient.png";
+import lightGradient from "./footerbg.png";
 import Image from "next/image";
 import logo from "./logo.svg";
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
@@ -6,7 +7,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="flex justify-center relative mx-[20px]">
-      <Image  className="grayscale" src={gradient} alt={gradient} />
+      <Image  className="dark:block hidden" src={gradient} alt={gradient} /> <Image  className="block dark:hidden" src={lightGradient} alt={gradient} /> 
       <div className="absolute w-[60%] lg:top-[40px] md:top-[20px]">
         <div className="flex justify-center">
         <Image className="md:w-14" src={logo} alt="Logo" />
@@ -19,7 +20,7 @@ export default function Footer() {
         </div>
 
         <div className="lg:my-10 md:my-6 my-2 h-[1px] bg-gray-400"></div>
-        <div className="text-gray-200 text-center">© 2024 Hiromon Nahar Eva</div>
+        <div className="dark:text-gray-200 text-center">© 2024 Hiromon Nahar Eva</div>
       </div>
     </div> 
   );
