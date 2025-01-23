@@ -126,15 +126,15 @@ const Header = () => {
             </span>
           </div>
 
-            <div className="bg-[#b5b5b5] flex items-center p-[10px] rounded-full">
+            <div className="dark:bg-[#6b6b6b]  flex items-center p-[10px] rounded-full bg-[#b5b5b5]">
               <Image
                 src={mail}
-                className="hidden dark:block w-[2rem] h-[2rem]"
+                className="hidden dark:block w-[2rem] h-[1rem]"
                 alt="mail"
               />{" "}
               <Image
                 src={mailDark}
-                className="w-[2rem] dark:hidden"
+                className="w-[2rem] dark:hidden h-[1rem]"
                 alt="mail"
               />
             </div>

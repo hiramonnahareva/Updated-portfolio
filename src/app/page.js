@@ -83,27 +83,27 @@ export default function Page() {
   const projects = [
     {
       id: 1,
-      title: "Manufacturing - Web App",
+      title: "Detroit - Web App",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
       tags: ["React", "Next.js", "Node.js"],
-      liveSite: "#",
+      liveSite: "https://detroit-six.vercel.app/",
     },
     {
       id: 2,
-      title: "Beauty E-commerce Website",
+      title: "Recipe Blogs Website",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
       tags: ["React", "Tailwind", "Firebase"],
-      liveSite: "#",
+      liveSite: "https://recipe-blogs-3c7ee.web.app/",
     },
     {
       id: 3,
       title: "Manufacturing - Web App",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
-      tags: ["React", "Next.js", "Node.js"],
-      liveSite: "#",
+      tags: ["React", "MongoBD", "Node.js"],
+      liveSite: "https://parts-manufacturer.web.app/",
     },
   ];
 
@@ -117,7 +117,7 @@ export default function Page() {
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
       tags: ["Next.js", "Tailwind", "Node.js"],
-      liveSite: "#",
+      liveSite: "",
     },
     {
       id: 2,
