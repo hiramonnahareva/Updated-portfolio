@@ -26,16 +26,16 @@ export default function ContactInfo() {
   }; 
 
   return (
-    <div className="mt-40 mb-20 flex lg:px-20 px-[20px] items-center justify-center">
-      <div className="pro p-16 rounded-lg shadow-lg w-full max-w-5xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+    <div className="mt-20 mb-20 flex lg:px-20 px-[20px] items-center justify-center">
+      <div className="pro md:p-16 p-[20px] rounded-lg shadow-lg w-full max-w-5xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20">
           {/* Left Section */}
           <div>
           <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">
               Contact
             </span>
-            <h2 className="text-3xl font-bold my-8">Let’s Talk</h2>
-            <p className="text-[#5D5C5D] mb-8">
+            <h2 className="text-3xl font-bold md:my-8 my-4">Let’s Talk</h2>
+            <p className="text-[#5D5C5D] md:mb-8 mb-4">
               Lorem ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>

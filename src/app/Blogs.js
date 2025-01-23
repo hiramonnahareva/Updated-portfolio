@@ -5,7 +5,7 @@ import { GoArrowUpRight } from 'react-icons/go'
 export default function Blogs() {
   return (
     <section>
-    <div className="mb-6 lg:mx-40 mx-[20px]">
+    <div className="mb-6 lg:mx-40 mt-10 mx-[20px]">
       <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">Blogs</span>
       <h2 className="text-2xl md:text-3xl font-bold mt-4">
         Resources that help you

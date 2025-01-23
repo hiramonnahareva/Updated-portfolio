@@ -116,7 +116,7 @@ export default function Page() {
       title: "(MERN Stack Developer)",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
-      tags: ["React", "Next.js", "Node.js"],
+      tags: ["Next.js", "Tailwind", "Node.js"],
       liveSite: "#",
     },
     {
@@ -127,7 +127,7 @@ export default function Page() {
       title: "(MERN Stack Developer)",
       description:
         "This website is a full-stack project. This website is a responsive site with a navigation menu.",
-      tags: ["React", "Tailwind CSS", "Node.js"],
+      tags: ["React", "Tailwind", "Node.js"],
       liveSite: "#",
     },
   ];
@@ -243,7 +243,7 @@ export default function Page() {
 
           <section
             ref={topSectionRef}
-            className="text-center flex flex-col items-center pt-40 pb-28 px-4"
+            className="text-center flex flex-col items-center pt-40 pb-28 px-[30px]"
           >
             <Image src={profile} alt="" className="mb-4" />
 
@@ -253,7 +253,7 @@ export default function Page() {
             <p className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">
               MERN Stack Developer
             </p>
-            <p className="mt-4 text-[56px] font-[500] leading-[64px] lg:w-1/2 mx-auto">
+            <p className="mt-4 md:text-[56px] text-[24px] font-[500] md:leading-[64px] lg:w-1/2 mx-auto">
               Crafting robust and user centric web solutions.
             </p>
             <p className="text-[18px] text-[#b1b1b1] mt-4">
@@ -275,15 +275,14 @@ export default function Page() {
             projects={projects}
             scrollContainerRef={scrollContainerRef}
           />
-
           <section
             ref={bottomSectionRef}
-            className="text-center flex flex-col items-center pt-20 pb-28 px-4"
+            className="text-center flex flex-col items-center pt-20 pb-20 px-4"
           >
             <p className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">
               Tools
             </p>
-            <p className="mt-6 text-[36px] font-[500] leading-[45px] mx-auto">
+            <p className="mt-6 md:text-[36px] text-[24px] font-[500] leading-[45px] mx-auto">
               Tools that help Develop and <br /> Consistent at my work
             </p>
             <LanguageMarquee />

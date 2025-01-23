@@ -248,7 +248,7 @@ export default function Projects({ projects, scrollContainerRef }) {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="project-card pro rounded-2xl border border-[#FA4FCA] p-8 w-[508px] flex-shrink-0 overflow-hidden"
+                className="project-card pro rounded-2xl border border-[#FA4FCA] p-8 md:w-[508px] w-[100%] flex-shrink-0 overflow-hidden"
               >
                 <div className="relative">
                   <div className="px-6 py-5">

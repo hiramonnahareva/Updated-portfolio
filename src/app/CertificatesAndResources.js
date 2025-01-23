@@ -6,11 +6,11 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export default function CertificatesAndResources() {
     return (
-      <div className="py-12 px-4 md:px-12 space-y-16"> 
+      <div className="pt-10 pb-20 md:px-12 space-y-16"> 
         {/* Certificates Section */}
         <section className="lg:flex lg:flex-row md:flex-col justify-between items-center gap-20 lg:mx-24 mx-4">
           <div className="mb-6 flex-1">
-            <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">Certificates</span>
+            <span className="mt-2 text-pink-500 text-[18px] pro-btn px-[20px] py-1 rounded-full font-medium">Certificates</span>
             <h2 className="text-2xl md:text-3xl font-bold mt-6">
               Tools that help Develop and Consistent at my
             </h2>
@@ -48,7 +48,7 @@ export default function CertificatesAndResources() {
   
         {/* Resources Section */}
         <section>
-          <div className="text-center mb-6">
+          <div className="text-center mt-20">
             <span className="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">Resources</span>
             <h2 className="text-2xl md:text-3xl font-bold mt-4">
               Resources that help you

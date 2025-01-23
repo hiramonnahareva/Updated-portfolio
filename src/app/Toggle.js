@@ -37,11 +37,11 @@ export default function ModeToggle() {
         {
             darkMode ?
              
-            <Image src={sun} className="w-[17px] h-[17px] hidden dark:block transform rotate-[90%] transition-all duration-700" alt="mode"/>
+            <Image src={sun} className="md:w-[17px] md:h-[17px] w-[2rem] hidden dark:block transform rotate-[90%] transition-all duration-700" alt="mode"/>
         
             : 
 
-            <Image src={moon} className="w-[17px] h-[17px] transform rotate-0 transition-all duration-700 dark:hidden" alt="mode"/>
+            <Image src={moon} className="md:w-[17px] md:h-[17px] w-[2rem] transform rotate-0 transition-all duration-700 dark:hidden" alt="mode"/>
         
            
         }

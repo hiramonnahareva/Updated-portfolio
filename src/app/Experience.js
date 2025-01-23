@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Experience({ Experience }) {
   return (
-    <section className="lg:mx-60 md:mx-40 ms-[20px] me-[20px] py-10">
+    <section className="lg:mx-60 md:mx-40 ms-[20px] me-[20px] pb-20">
       <div className="flex justify-center mb-10">
       <span class="mt-2 text-pink-500 text-[18px] pro-btn px-4 py-1 rounded-full font-medium">
        Experience
@@ -14,11 +14,11 @@ export default function Experience({ Experience }) {
         {Experience.map((experience) => (
           <div
             key={experience.id}
-            className={`rounded-2xl border ${experience.isRecent ? "border-[#FA4FCA] pro " : "bg-dark-gradient border-[#464646]"}  p-8 overflow-hidden`}
+            className={`rounded-2xl border ${experience.isRecent ? "border-[#FA4FCA] pro " : "bg-dark-gradient border-[#464646]"} md:p-8 p-[20px] overflow-hidden`}
           >
             <div className="relative">
               <div className="lg:px-6 py-5 transition-all duration-500 ease-in-out">
-                <div className="flex gap-4 items-center  dark:text-slate-200">
+                <div className="flex md:flex-row flex-col  gap-4 md:items-center  dark:text-slate-200">
                   <Image src={experience.img} alt="" className="" />
 
                   <h2 className="text-[24px] font-[600]"> 
@@ -36,9 +36,9 @@ export default function Experience({ Experience }) {
                   {experience.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className={`${experience.isRecent ? "pro-btn text-[#b04b95]" : "bg-[#bdbdbd] dark:bg-[#363636] border dark:border-[#686868]"}  text-xs rounded-full px-6 py-2`}
+                      className={`${experience.isRecent ? "pro-btn text-[#b04b95]" : "bg-[#bdbdbd] dark:bg-[#363636] border dark:border-[#686868]"}  text-sm rounded-full md:px-6 px-[10px] py-2`}
                     >
-                      {tag}
+                      {tag} 
                     </span>
                   ))}
                 </div>
