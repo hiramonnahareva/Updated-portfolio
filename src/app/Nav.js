@@ -126,7 +126,7 @@ const Header = () => {
             </span>
           </div>
 
-            <div className="bg-[#6b6b6b] flex items-center p-[10px] rounded-full">
+            <div className="bg-[#b5b5b5] flex items-center p-[10px] rounded-full">
               <Image
                 src={mail}
                 className="hidden dark:block w-[2rem] "
