@@ -236,53 +236,54 @@
 export default function Projects({ projects, scrollContainerRef }) {
  
 
-  return (
-      <section id="Project" className="lg:px-40 ps-[20px] pe-[20px] py-10">
-        <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
-        {/* Sticky horizontal scroll container */}
-        <div
-          ref={scrollContainerRef}
-          className="relative overflow-x-auto scrollbar-hide"
-        >
-          <div className="flex gap-8">
-            {projects.map((project) => (
-              <div
-                key={project.id}
-                className="project-card pro rounded-2xl border border-[#FA4FCA] p-8 md:w-[508px] w-[100%] flex-shrink-0 overflow-hidden"
-              >
-                <div className="relative">
-                  <div className="px-6 py-5">
-                    <h2 className="text-[24px] font-[600] dark:text-[#FAD7D2]">
-                      {project.title}
-                    </h2>
-                    <span className="text-[16px] py-[20px] dark:text-[#AC8EA3] mb-1 block transition-all duration-500 ease-in-out">
-                      {project.description}
-                    </span>
-                    <div className="flex flex-wrap gap-2 mt-2">
-                      {project.tags.map((tag, index) => (
-                        <span
-                          key={index}
-                          className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-[#c72897]"
-                        >
-                          {tag}
-                        </span>
-                      ))}
+    return (
+        <section id="Project" className="lg:px-40 ps-[20px] pe-[20px] py-10">
+          <h2 className="text-3xl font-bold mb-6">My Recent Projects</h2>
+          {/* Sticky horizontal scroll container */}
+          <div
+            ref={scrollContainerRef}
+            className="relative overflow-x-auto scrollbar-hide"
+          >
+            <div className="flex gap-8">
+              {projects.map((project) => (
+                <div
+                  key={project.id}
+                  className="project-card pro rounded-2xl border border-[#FA4FCA] p-8 md:w-[508px] w-[100%] flex-shrink-0 overflow-hidden"
+                >
+                  <div className="relative">
+                    <div className="px-6 py-5">
+                      <h2 className="text-[24px] font-[600] dark:text-[#FAD7D2]">
+                        {project.title}
+                      </h2>
+                      <span className="text-[16px] py-[20px] dark:text-[#AC8EA3] mb-1 block transition-all duration-500 ease-in-out">
+                        {project.description}
+                      </span>
+                      <div className="flex flex-wrap gap-2 mt-2">
+                        {project.tags.map((tag, index) => (
+                          <span
+                            key={index}
+                            className="pro-btn text-xs rounded-full px-6 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-[#c72897]"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <a
+                        href={project.liveSite}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block mt-6 transition text-gradient"
+                      >
+                        Live Site &rarr;
+                      </a>
                     </div>
-                    <a
-                      href={project.liveSite}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block mt-6 transition text-gradient"
-                    >
-                      Live Site &rarr;
-                    </a>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-  );
-}
-
+        </section>
+    );
+  }
+  
+  

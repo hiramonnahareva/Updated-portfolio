@@ -36,8 +36,9 @@ export default function ContactInfo() {
             </span>
             <h2 className="text-3xl font-bold md:my-8 my-4">Let’s Talk</h2>
             <p className="text-[#5D5C5D] md:mb-8 mb-4">
-              Lorem ipsum is simply dummy text of the printing and typesetting
-              industry.
+
+              
+              I am always open to discussing Web development and provide best service. Feel free to reach out to me.
             </p>
 
             <div className="mb-6 flex flex-col">
@@ -81,7 +82,7 @@ export default function ContactInfo() {
                   type="text"
                   id="full-name"
                   name="full-name"
-                  placeholder="John I"
+                  placeholder="Your Full Name"
                   className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border focus:outline-none focus:border-pink-500"
                 />
               </div>
@@ -97,7 +98,7 @@ export default function ContactInfo() {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="john.doe@example.com"
+                  placeholder="Your Work Email"
                   required
                   className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500"
                 />
@@ -114,7 +115,7 @@ export default function ContactInfo() {
                   id="message"
                   name="message"
                   rows="4"
-                  placeholder="Your message here..."
+                  placeholder="Your message wirte here..."
                   className="w-full p-3 rounded-md dark:bg-[#170111] dark:placeholder:text-[#4f394a] border  focus:outline-none focus:border-pink-500" required
                 ></textarea>
               </div>

@@ -20,7 +20,7 @@ export default function Blogs() {
             key={index}
             className="bg-dark-gradient rounded-lg shadow-lg px-20 py-8 hover:scale-95 border dark:border-gray-600 duration-700 transition-transform"
           >
-            <h3 className="text-lg font-medium">How you can be a good Developer</h3>
+            <h3 className="text-lg font-medium">How to write code good Developer</h3>
             <p className="text-gray-400 mt-2">25 Feb 2023 - 10 Min Read </p>
           </Link>
         ))}

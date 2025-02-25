@@ -17,7 +17,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://x.com/naymur_dev"
+            href="https://react.dev/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={react} alt="Logo" />
@@ -26,7 +26,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://www.mongodb.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={MongoDB} alt="Logo" />
@@ -35,7 +35,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://github.com/ui-layouts/uilayouts"
+            href="https://nodejs.org/en"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-20" src={nodeJS} alt="Logo" />
@@ -44,7 +44,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://nextjs.org/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14 dark:hidden" src={nextjs} alt="Logo" /> <Image className="w-14 hidden dark:block" src={nextjsDark} alt="Logo" />
@@ -53,7 +53,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://x.com/naymur_dev"
+            href="https://tailwindcss.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={tailwind} alt="Logo" />
@@ -62,7 +62,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://vitejs.dev/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={vite} alt="Logo" />
@@ -71,7 +71,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://github.com/ui-layouts/uilayouts"
+            href="https://firebase.google.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={Firebase} alt="Logo" />
@@ -80,7 +80,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://getbootstrap.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={bootstrap} alt="Logo" />
@@ -91,7 +91,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://x.com/naymur_dev"
+            href="https://react.dev/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={react} alt="Logo" />
@@ -100,7 +100,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://www.mongodb.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={MongoDB} alt="Logo" />
@@ -109,7 +109,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://github.com/ui-layouts/uilayouts"
+            href="https://nodejs.org/en"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-20" src={nodeJS} alt="Logo" />
@@ -118,7 +118,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://nextjs.org/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14 dark:hidden" src={nextjs} alt="Logo" /> <Image className="w-14 hidden dark:block" src={nextjsDark} alt="Logo" />
@@ -127,7 +127,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://x.com/naymur_dev"
+            href="https://tailwindcss.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={tailwind} alt="Logo" />
@@ -136,7 +136,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://www.youtube.com/@coderflix"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={vite} alt="Logo" />
@@ -145,7 +145,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://github.com/ui-layouts/uilayouts"
+            href="https://firebase.google.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={Firebase} alt="Logo" />
@@ -154,7 +154,7 @@ export default function LanguageMarquee() {
         <li>
           <a
             target="_blank"
-            href="https://www.youtube.com/naymurweb"
+            href="https://getbootstrap.com/"
             className="bg-primary text-primary-foreground text-2xl grid place-content-center p-2 rounded-md"
           >
             <Image className="w-14" src={bootstrap} alt="Logo" />

@@ -85,7 +85,7 @@ export default function Page() {
       id: 1,
       title: "Detroit - Web App",
       description:
-        "This website is a full-stack project. This website is a responsive site with a navigation menu.",
+        "A modern web application designed for seamless navigation and a user-friendly experience, built with a full-stack architecture for efficiency and scalability.",
       tags: ["React", "Next.js", "Node.js"],
       liveSite: "https://detroit-six.vercel.app/",
     },
@@ -93,7 +93,7 @@ export default function Page() {
       id: 2,
       title: "Recipe Blogs Website",
       description:
-        "This website is a full-stack project. This website is a responsive site with a navigation menu.",
+        "A fully responsive recipe-sharing platform where users can explore, share, and save their favorite recipes with an interactive and visually appealing UI.",
       tags: ["React", "Tailwind", "Firebase"],
       liveSite: "https://recipe-blogs-3c7ee.web.app/",
     },
@@ -101,8 +101,8 @@ export default function Page() {
       id: 3,
       title: "Manufacturing - Web App",
       description:
-        "This website is a full-stack project. This website is a responsive site with a navigation menu.",
-      tags: ["React", "MongoBD", "Node.js"],
+        "A powerful web solution tailored for manufacturing businesses, featuring real-time data processing, efficient inventory management, and a clean, responsive design.",
+      tags: ["React", "MongoDB", "Node.js"],
       liveSite: "https://parts-manufacturer.web.app/",
     },
   ];
@@ -115,7 +115,7 @@ export default function Page() {
       isRecent: true,
       title: "(MERN Stack Developer)",
       description:
-        "This website is a full-stack project. This website is a responsive site with a navigation menu.",
+        "Developed scalable web applications using the MERN stack, optimizing performance and enhancing user experience. Led frontend development, ensuring seamless integration and responsiveness.",
       tags: ["Next.js", "Tailwind", "Node.js"],
       liveSite: "",
     },
@@ -126,7 +126,7 @@ export default function Page() {
       isRecent: false,
       title: "(MERN Stack Developer)",
       description:
-        "This website is a full-stack project. This website is a responsive site with a navigation menu.",
+        "Designed and implemented dynamic web solutions, streamlining data processing and improving efficiency. Worked closely with cross-functional teams to enhance platform functionality.",
       tags: ["React", "Tailwind", "Node.js"],
       liveSite: "#",
     },

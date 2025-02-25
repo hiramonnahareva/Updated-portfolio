@@ -5,6 +5,30 @@ import cv from "./cv.svg";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function CertificatesAndResources() {
+
+
+  const developerCVs = [
+    {
+      title: "Modern Developer CV",
+      description: "A clean, professional, and responsive CV template tailored for developers. Showcase your skills, experience, and projects in a structured format."
+    },
+    {
+      title: "Full-Stack Developer Resume",
+      description: "A sleek and interactive CV template designed for full-stack developers. Highlight your expertise, tech stack, and work experience with ease."
+    },
+    {
+      title: "Minimalist Tech Resume",
+      description: "A lightweight, elegant, and fully responsive CV template for developers looking for a modern and professional online presence."
+    }
+    // ,
+    // {
+    //   title: "Creative Portfolio CV",
+    //   description: "A visually appealing and well-organized CV template perfect for developers who want to showcase their work dynamically."
+    // }
+  ]; 
+  
+
+  
     return (
       <div className="pt-10 pb-20 md:px-12 space-y-16"> 
         {/* Certificates Section */}
@@ -15,7 +39,8 @@ export default function CertificatesAndResources() {
               Tools that help Develop and Consistent at my
             </h2>
             <p className="text-gray-400 md:text-base mt-4">
-              Lorem ipsum is simply dummy text of the printing and typesetting industry.
+              {/* I have completed some courses and got certificates from different platforms. I have also created some resources that help you to develop and consistent at your work.  or */}
+              Showcasing my achievements and expertise. Explore our certifications that highlight our skills and dedication.
             </p>
             <div className="mt-6"> 
             <a
@@ -28,17 +53,18 @@ export default function CertificatesAndResources() {
           </div>
 
           <div className="flex lg:flex-row flex-col flex-2 gap-4 py-4">
-            <a href="https://drive.google.com/file/d/16legtf0JV6d2wb4GH0b8YsiBCOcvJQ6O/view" target="_blank" className="flex-shrink-0 cer-border rounded-lg p-2 shadow-lg hover:scale-95 duration-700 transition-transform">
-              <Image
-                src={certificate1 }
-                alt="Certificate 1"
-                className="grayscale hover:grayscale-0 duration-700 rounded-lg lg:w-[353px] h-auto"
-              />
-            </a>
+           
             <a  href="https://certificates.cs50.io/1c0331ef-9e19-4cc3-84e3-f354a6dc608f.pdf?size=letter" target="_blank" className="flex-shrink-0 cer-border rounded-lg p-2 shadow-lg hover:scale-95 duration-700 transition-transform">
               <Image
                 src={certificate2 }
                 alt="Certificate 2"
+                className="grayscale hover:grayscale-0 duration-700 rounded-lg lg:w-[353px] h-auto"
+              />
+            </a>
+            <a href="https://drive.google.com/file/d/16legtf0JV6d2wb4GH0b8YsiBCOcvJQ6O/view" target="_blank" className="flex-shrink-0 cer-border rounded-lg p-2 shadow-lg hover:scale-95 duration-700 transition-transform">
+              <Image
+                src={certificate1 }
+                alt="Certificate 1"
                 className="grayscale hover:grayscale-0 duration-700 rounded-lg lg:w-[353px] h-auto"
               />
             </a>
@@ -55,17 +81,16 @@ export default function CertificatesAndResources() {
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 lg:w-[85%] mx-[20px] lg:mx-auto mt-12">
-            {Array(3)
-              .fill("")
-              .map((_, index) => (
+            {developerCVs
+              .map((developerCV, index) => (
                 <div
                   key={index}
                   className="bg-dark-gradient border dark:border-[#2A2A2A] rounded-lg shadow-lg p-4 hover:scale-95 duration-700 transition-transform"
                 >
                   <Image src={cv} className=" h-56 bg-white rounded-lg" />
-                  <h3 className="mt-8 text-lg font-medium">CV for Developer</h3>
+                  <h3 className="mt-8 text-lg font-medium">{developerCV.title}</h3>
                   <p className="text-gray-400 mt-2">
-                    This website is a full-stack project. <br /> This is created as a Responsive <br /> web application.
+                    {developerCV.description}
                   </p>
                   <a
                     href="#"
